@@ -28,11 +28,23 @@
 
 ## 安装
 
-1. 浏览器安装 [Tampermonkey](https://www.tampermonkey.net/)（Chrome / Edge / Firefox / Safari）
-2. 点 Tampermonkey 图标 → **添加新脚本**
-3. **全选删掉**编辑器里的模板内容，粘贴 `jzwz-collector.user.js` 全文
-4. `Ctrl+S`（macOS 是 `Cmd+S`）保存
-5. 打开岗位查询页，右下角出现「⚡ 岗位采集器」面板即成功
+先装 [Tampermonkey](https://www.tampermonkey.net/)（Chrome / Edge / Firefox / Safari）。
+
+**方式 A · 一键安装**（推荐）
+
+点这个链接，Tampermonkey 会自动弹出安装页，点「安装」即可：
+
+**https://raw.githubusercontent.com/Marshmallowc/jzwz-collector/main/jzwz-collector.user.js**
+
+> 如果链接打开是纯文本而不是安装页，说明 Tampermonkey 没启用或浏览器不允许访问 raw 站点，走方式 B。
+
+**方式 B · 手动粘贴**
+
+1. 点 Tampermonkey 图标 → **添加新脚本**
+2. **全选删掉**编辑器里的模板内容，粘贴 [`jzwz-collector.user.js`](jzwz-collector.user.js) 全文
+3. `Ctrl+S`（macOS 是 `Cmd+S`）保存
+
+装完打开岗位查询页，右下角出现「⚡ 岗位采集器」面板即成功。
 
 ## 使用
 
